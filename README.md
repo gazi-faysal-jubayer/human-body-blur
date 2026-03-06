@@ -1,4 +1,4 @@
-# Women Body Blur — User Guide
+# Human Body Blur — User Guide
 
 Full-body detection and blurring pipeline for selectively anonymizing specific individuals in video. Uses **YOLOv8 instance segmentation** with **ByteTrack** multi-object tracking to produce pixel-accurate body masks, then applies Gaussian blur to designated track IDs while preserving audio.
 
